@@ -1,0 +1,32 @@
+body {
+  max-width: 1070px;
+  margin: auto;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 40px;
+  grid-template-rows: repeat(17, 40px);
+  grid-template-columns: repeat(3, 330px);
+}
+
+div {
+  border: solid 1px;
+}
+
+.blank-gap {
+  border-color: black;
+  grid-row: span 1;
+}
+
+.item-rectangle {
+  border-color: blueviolet;
+  grid-row: span 8;
+}
+
+.item-square {
+  border-color: palevioletred;
+  grid-row: span 4;
+}
