@@ -30,3 +30,10 @@ div {
   border-color: palevioletred;
   grid-row: span 4;
 }
+
+.tablet-grid {
+  width: 700px;
+  margin: 100px auto;
+  grid-template-rows: repeat(25, 40px);
+  grid-template-columns: repeat(2, 330px);
+}
